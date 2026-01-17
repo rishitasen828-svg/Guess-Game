@@ -1,4 +1,4 @@
-#Creating Guess Game in Python using Random Module in python
+#Creating Guess Game in Python using Random Module
 #Rishita Sen,25BEE091
 import random
 random_num=random.randint(1,10)
