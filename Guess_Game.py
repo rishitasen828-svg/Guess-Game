@@ -13,5 +13,10 @@ while play<=chances:
     else:
         print("You lost.Better luck next time")    
     play+=1 
-if play>chances:
-    print("Chances are over")
+    if play>chances:
+        print("Chances are over")
+        play_again = input("Wanna play again? (yes/no): ")
+        if play_again== "yes":
+            play=1
+        else:
+            print("Bye")
