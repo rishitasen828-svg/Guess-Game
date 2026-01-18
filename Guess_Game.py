@@ -9,6 +9,7 @@ while play<=chances:
     choice=int(input("Enter the Digit you guessed->"))
     if(choice==random_num):
         print("You won!!Congo!!")
+        break
     else:
         print("You lost.Better luck next time")    
     play+=1 
