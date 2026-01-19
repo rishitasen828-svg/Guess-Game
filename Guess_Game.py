@@ -1,6 +1,10 @@
 #Creating Guess Game in Python using Random Module
 #Rishita Sen,25BEE091
 import random
+import pyttsx3
+engine = pyttsx3.init()
+engine.say("Welcome to the Guessing Game")
+engine.runAndWait()
 random_num=random.randint(1,10)
 print("You have 3 chances to guess the Digit")
 chances=3
